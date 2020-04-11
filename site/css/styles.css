@@ -24,6 +24,9 @@ html, body { margin: 0; padding: 0; width: 100%; height: 100%;}
 
 #slider .slide
 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     position: absolute;
     top: 0;
